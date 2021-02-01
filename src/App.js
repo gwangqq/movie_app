@@ -31,11 +31,11 @@ class App extends React.Component {
       <section className = "container">
         <div>
           {isLoading ? (
-            <div classNameName="loader">
-              <span classNameName="loader__text">"Loading..." </span>
+            <div className="loader">
+              <span className="loader__text">"Loading..." </span>
             </div>
           ) : (
-              <div classNameName="movies">
+              <div className="movies">
                 {movies.map(movie => (
                   // console.log(movie);
                   <Movie
